@@ -30,7 +30,7 @@ func main() {
 	http.HandleFunc("/", serveIndex)
 	http.HandleFunc("/api/scan", serveScan)
 
-	log.Printf("Governata PII Scanner — listening on :%s", port)
+	log.Printf("Data Sieve PII Scanner — listening on :%s", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
@@ -109,7 +109,7 @@ const indexHTML = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Governata · PII Scanner</title>
+<title>Data Sieve · PII Scanner</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -423,7 +423,7 @@ footer {
 <div class="page">
 
   <div class="masthead">
-    <div class="title">GOVERN<span class="accent">ATA</span></div>
+    <div class="title">DATA<span class="accent">SIEVE</span></div>
     <div class="meta">
       PII SCANNER · V1.0.0<br>
       SAUDI PDPL COMPLIANCE<br>
@@ -482,7 +482,7 @@ footer {
   </div>
 
   <footer>
-    <span>GOVERNATA PII SCANNER</span>
+    <span>DATA SIEVE PII SCANNER</span>
     <span>SAUDI PDPL COMPLIANCE TOOL</span>
   </footer>
 
