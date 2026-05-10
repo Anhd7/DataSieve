@@ -1,0 +1,16 @@
+Product Catalogue — Q3 2024
+==========================
+
+Category: Electronics
+---------------------
+SKU: ELEC-001  | Item: Wireless Headphones    | Price: SAR 299
+SKU: ELEC-002  | Item: USB-C Hub (7-port)     | Price: SAR 149
+SKU: ELEC-003  | Item: Mechanical Keyboard    | Price: SAR 445
+
+Category: Office Supplies
+--------------------------
+SKU: OFF-001   | Item: A4 Paper (500 sheets)  | Price: SAR 22
+SKU: OFF-002   | Item: Ballpoint Pen (12pk)   | Price: SAR 18
+
+All prices include 15% VAT. Product codes are internal use only.
+Last updated: 2024-07-01
